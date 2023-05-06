@@ -17,7 +17,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="contact-form border m-3 bg-light">
+    <div className="contact-form border m-3 bg-light mx-auto">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
