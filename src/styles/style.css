@@ -1,0 +1,261 @@
+#oval {
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(to bottom, #2c3e50, #34495e); /* Professional gradient background */
+    position: absolute;
+    z-index: -1;
+    top: -180px;
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+#oval_wrap {
+    overflow: hidden;
+}
+
+#oval_inner {
+    height: 280px;
+    width: 280px;
+    background: #2980b9; /* Professional color */
+    border-radius: 50%;
+    position: relative;
+    left: 16%;
+    top: 80px;
+    animation: rotate 4s linear infinite; /* Example animation */
+}
+
+#content {
+    margin: 120px auto;
+    text-align: center;
+    color: #333; /* Professional color */
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #3498db; /* Professional color */
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #333; /* Professional color */
+    color: #fff; /* Professional color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555; /* Professional color */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .profile {
+    max-width: 500px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .name {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .qualification {
+    color: #777777;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    margin: 0 10px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .social-link:hover {
+    opacity: 1;
+  }
+  
+  .social-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .experience-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .experience-box {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .experience-box p {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 5px;
+  }
+  
+  .client, .company {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .experience-section {
+      padding: 20px;
+    }
+    
+    .experience-box {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 400px;
+    }
+  }
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  textarea {
+    height: 120px;
+  }
+  
+  button[type='submit'] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 20px;
+    }
+  }
+  .footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+  }
+  
+  .contact-item {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555555;
+  }
+    
+  
