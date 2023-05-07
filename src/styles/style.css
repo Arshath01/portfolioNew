@@ -12,15 +12,18 @@
     overflow: hidden;
 }
 
-#oval_inner {
+#oval_inner { 
     height: 280px;
     width: 280px;
-    background: #2980b9; /* Professional color */
+    background-image: url('./roshen.jpg');
+    background-size: contain;
+    background-position: center;
+     /* Professional color */
     border-radius: 50%;
     position: relative;
     left: 16%;
     top: 80px;
-    animation: rotate 4s linear infinite; /* Example animation */
+    
 }
 
 #content {

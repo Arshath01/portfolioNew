@@ -4,8 +4,8 @@ import '../styles/style.css';
 const Experience = () => {
   return (
     <div className="experience-section" id='experience'>
-      <h2>Experience</h2>
-      <div className="experience-box">
+      <h2 className=''>Experience</h2>
+      <div className="experience-box mt-5">
         <h3>JKIG Industries</h3>
         <p className="client">Client: Wheels India</p>
         <p className="designation">Designation: Multi Technician</p>

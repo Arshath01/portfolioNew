@@ -1,48 +1,87 @@
 .skills-section {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.skills-section h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  .skill-box {
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .skill-box:hover {
-    transform: translateY(-5px);
-  }
-  
-  .skill-box h3 {
-    color: #333;
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .skill-box p {
-    color: #777;
-    font-size: 16px;
-  }
-  
-  .ut-flaw-detector {
-    background-color: #ffd54f;
-  }
-  
-  .mpi-head-shot {
-    background-color: #7986cb;
-  }
-  
-  .mpi-ac-yoke {
-    background-color: #4db6ac;
-  }
-  
-  .pt-fluorescent {
-    background-color: #ff8a65;
-  }
-  
+}
+
+#container {
+  padding: 10px 25px;
+  display: flex;
+  margin: 30px 0;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+}
+
+.skill-box {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 35px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  width: 100%;
+  opacity: 0;
+  animation: fade-in 1s ease-in-out forwards;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+
+.skill-box h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.skill-box p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.ut-flaw-detector {
+  background-color: #f1e1d4;
+  color: black;
+}
+
+.mpi-head-shot {
+  background-color: #ccd1e9;
+  color: black;
+}
+
+.mpi-ac-yoke {
+  background-color: #b6e4d9;
+  color: black;
+}
+
+.pt-fluorescent {
+  background-color: #f6d2c2;
+  color: black;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}

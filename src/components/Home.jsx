@@ -10,7 +10,7 @@ export default function Home() {
             <div id="oval_inner"></div>
             <div id="content" className="">
                 <h1>MOHAMMED ROSHEN</h1>
-                <p className="subtitle">Qualified Diploma in Mechanical Engineering</p>
+                <p className="subtitle">Qualified in PCN LEVEL - II UT -3.1 & 3.2,MT,PT</p>
                 <p className="description">
                     Building the Future of Innovation and Precision with a Passion for Engineering.
                 </p>
