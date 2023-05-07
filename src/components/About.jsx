@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div className="container">
       <div className="profile">
-        <h1 className="name">Mohammed Roshen</h1>
+        <h1 className="name">Mohamed Roshen</h1>
         <h2 className="qualification">Qualified PCN Level-2 and ASNT-SNT-TC.1A Level 2</h2>
         <p className="description">
-          Hi, I'm Mohammed Roshen, a qualified professional in Non-Destructive Testing (NDT). With PCN Level-2 and ASNT-SNT-TC.1A Level 2 certifications, I have expertise in various NDT techniques.
+          Hi, I'm Mohamed Roshen, a qualified professional in Non-Destructive Testing (NDT). With PCN Level-2 and ASNT-SNT-TC.1A Level 2 certifications, I have expertise in various NDT techniques.
         </p>
         <p className="description">
           I hold a diploma in Mechanical Engineering, providing a strong foundation in mechanical systems and their practical applications.
